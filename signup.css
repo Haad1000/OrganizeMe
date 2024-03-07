@@ -1,0 +1,40 @@
+
+
+body {
+    background: linear-gradient(140deg, #3AFFA6, #52c3ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#loginPart {
+  background-color: #fff;
+  padding: 5%;
+  border-radius: 0% 20% 0% 0%;
+}
+
+#signupPart {
+  background-color: #07c3b7;
+  border-radius: 0% 0% 0% 20%;
+  align-items: center;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: #4cebde;
+  border: none;
+  cursor: pointer;
+  padding: 12px 20px;
+  border-radius: 10%;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #764ba2;
+}
