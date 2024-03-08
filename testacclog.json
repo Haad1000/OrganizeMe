@@ -1,0 +1,24 @@
+{
+    "accounts" : [
+        {
+        "id": 1,
+        "username": "Bret",
+        "password": "firstpass"
+        },
+        {
+        "id": 2,
+        "username": "Antonette",
+        "password": "anotherpass"
+        },
+        {
+        "id": 3,
+        "username": "Samantha",
+        "password": "anotherpass"
+        },
+        {
+        "id": 4,
+        "username": "Karianne",
+        "password": "anotherpass"
+        }
+    ]
+}
