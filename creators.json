@@ -1,0 +1,14 @@
+[
+    {
+      "name": "Haad Ahmed Cheema",
+      "email": "haad736@iastate.edu",
+      "bio": "I'm a computer science student at Iowa State University. I am also the vice-president of the web development club. I work at the Computer Science Help Room as of the time of making this. I started coding when I came to Iowa State University and ever since, I've developed a love for software development.",
+      "imageUrl": "./Images/Haad.jpg"
+    },
+    {
+      "name": "Dhairya Kachalia",
+      "email": "dhairyak@iastate.edu",
+      "bio": "I am a sophomore majoring in Computer Science. I have been coding for four years mainly in object-oriented programming languages like Java. I have previous development experience using Spring Boot, PostMan, and MySQL. I am also a Teaching Assistant for COM S 227. This has allowed me to understand object-oriented programming better and also to review other's code",
+      "imageUrl": "./Images/Dhairya.jpg"
+    }
+  ]

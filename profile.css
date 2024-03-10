@@ -1,0 +1,58 @@
+body {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    background: linear-gradient(140deg, #0f5e67, #980d4e);
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+.nav {
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+
+.nav-link {
+    color: #000000;
+}
+
+.nav-link:hover {
+    color: #cb1168;
+}
+
+#main-content {
+    overflow: auto;
+    margin-left: 18vw;
+    margin-right: 4vw;
+    border: none;
+    align-items: center;;
+    padding: 1vh;
+}
+
+#main-content i :hover {
+    overflow: auto;
+    margin-left: 18vw;
+    margin-right: 4vw;
+    border: none;
+    align-items: center;;
+}
+
+.changestu {
+    color: #000000;
+}
+
+.changestu :hover {
+    color: #cb1168;
+}
+
+.card img {
+    max-width: 40%;
+}

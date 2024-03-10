@@ -1,0 +1,17 @@
+[
+    {
+      "imageUrl": "images/product1.jpg",
+      "description": "Product 1 Description",
+      "price": 19.99
+    },
+    {
+      "imageUrl": "images/product2.jpg",
+      "description": "Product 2 Description",
+      "price": 24.99
+    },
+    {
+      "imageUrl": "images/product3.jpg",
+      "description": "Product 3 Description",
+      "price": 29.99
+    }
+  ]

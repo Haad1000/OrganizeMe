@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="./profile.css">
+  <script src="creators.js"></script>
+  <title>Authors</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-auto sidebar">
+        <div class="">
+          <ul class="nav flex-sm-column p-2">
+            <li class="nav-item">
+              <a href="#" class="nav-link py-3 px-2">
+                <i class="bi   bi-house-fill fs-1"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="./profile.html" class="nav-link py-3 px-2">
+                <i class="bi bi-person-circle fs-1"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link py-3 px-2">
+                <i class="bi bi-card-checklist fs-1"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link py-3 px-2">
+                <i class="bi bi-calendar-week fs-1"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link py-3 px-2">
+                <i class="bi bi-gear-fill fs-1"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="./creators.html" class="nav-link py-3 px-2">
+                <i class="bi bi-people-fill fs-1"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-auto">
+        <div class="card text-center" id="main-content">
+          <img class="img-fluid" src="./Images/iastateLogo.png">
+          <h1 class="card-body">SE/ComS319 Construction of User Interfaces, Spring 2024</h1>
+          <p>3/9/2024</p>
+          <div class="card-body">
+            <div class="row">
+              <div class="col">
+                <a onclick="changeStu()" type="button" class="changestu">
+                  <i class="bi bi-caret-left-square"></i>
+                </a>
+              </div>
+              <div class="col-8 card" id="student-info" style=" border: none">
+                <img src="./Images/Haad.jpg" class="card-img-top" style="align-self: center;">
+                <div class="card-body">
+                  <h1 class="card-title">Haad Ahmed Cheema</h1>
+                  <p class="card-text">
+                    <span style="font-weight: bold;">haad736@iastate.edu</span><br>
+                    I'm a computer science student at Iowa State University. I am also the vice-president of the web development club. I work at the Computer Science Help Room as of the time of making this. I started coding when I came to Iowa State University and ever since, I've developed a love for software development. 
+                  </p>
+                </div>
+              </div>
+              <div class="col">
+                <a onclick="changeStu()" type="button" class="changestu">
+                  <i class="bi bi-caret-right-square"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
