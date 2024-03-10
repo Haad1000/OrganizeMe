@@ -45,6 +45,15 @@ body {
     align-items: center;;
 }
 
+#todo-content {
+    overflow: auto;
+    margin-left: 18vw;
+    margin-right: 4vw;
+    border: none;
+    align-items: center;;
+    padding: 1vh;
+}
+
 .changestu {
     color: #000000;
 }

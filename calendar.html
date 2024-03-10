@@ -11,7 +11,7 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./profile.css">
-    <title>Profile Page</title>
+    <title>dashboard</title>
 </head>
 
 <body>
@@ -55,33 +55,13 @@
             </div>
             <div class="col-sm-auto">
                 <div class="card text-center" id="main-content">
-                    <img class="img-fluid" src="">
-                    <h1 class="card-body"></h1>
-                    <p></p>
+                    <h1>Calendar</h1>
+                    <p>Purposely left empty due to the nature of the project, will be implemented for the final project.<br> here is the inspiration:</p>
+                    <img src="./Images/calendar.jpg">
                 </div>
             </div>
         </div>
     </div>
 </body>
-
-<script>
-    const userDataString = localStorage.getItem('loggedInUser');
-  
-    if (userDataString) {
-      const userData = JSON.parse(userDataString);
-  
-      const usernameElement = document.querySelector('#main-content h1.card-body');
-      const bioElement = document.querySelector('#main-content p');
-      const profileImageElement = document.querySelector('#main-content img');
-  
-      usernameElement.textContent = userData.username;
-      bioElement.textContent = userData.bio;
-      profileImageElement.src = userData.imageUrl;
-    }
-    else {
-      window.location.href = 'index.html';
-      alert("You are not logged in");
-    }
-  </script>
 
 </html>
