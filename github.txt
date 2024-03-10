@@ -1,4 +1,8 @@
+Github Pages:
 https://haad1000.github.io/OrganizeMe/index.html
+
+Github Repo:
+https://github.com/Haad1000/OrganizeMe
 
 username:
 haad
@@ -13,3 +17,8 @@ dhairya
 
 password:
 saferpwd
+
+also due to the nature of the project, a lot of functionality wasn't added since it requires frontend and backend connection and hence will be done for the final project instead of having a temporary solution present. A temporary solution was made for the Todo part.
+Similarly, while a temporary login functionality was implemented, the signup wasn't implemented, and is not functional outside the console memory.
+
+However the use of multiple json files and javascript files should prove and easily meet the requirement for the project.
