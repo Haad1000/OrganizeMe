@@ -1,7 +1,6 @@
 [
     {
         "id": 0,
-        "name": "Haad Ahmed Cheema",
         "username": "haad",
         "password": "safepwd",
         "email": "haad736@iastate.edu",
@@ -10,7 +9,6 @@
     },
     {
         "id": 1,
-        "name": "Dhairya Kachalia",
         "username": "dhairya",
         "password": "saferpwd",
         "email": "dhairyak@iastate.edu",
