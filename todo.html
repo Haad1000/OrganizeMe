@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./profile.css">
     <title>dashboard</title>
+    <script src="./drag.js" defer></script>
+    <script src="./todo.js" defer></script>
 </head>
 
 <body>
@@ -60,22 +62,88 @@
                     <img src="./myotherimages/trello.png">
                 </div>
             </div>
-            <div class="col-sm-auto">
-                <div class="card text-center" id="todo-content">
-                    <h1>ToDo</h1>
-                    <p>Temoprary implementation</p>
-                    <div class="row">
-                        <div class="col">
-                            <h1>Todo</h1>
+            <div class="col-sm-auto" id="my-todo">
+                <div class="board">
+                    <form id="todo-form">
+                        <input type="text" placeholder="New TODO..." id="todo-input">
+                        <button type="submit">Add +</button>
+                    </form>
+
+                    <div class="lanes">
+                        <div class="swim-lane" id="todo-lane">
+                            <h1 class="heading fs-3">TODO</h1>
+
+                            <p class="task" draggable="true">Task 1</p>
+                            <p class="task" draggable="true">Task 2</p>
+                            <p class="task" draggable="true">Task 3</p>
                         </div>
-                        <div class="col">
-                            <h1>Doing</h1>
+
+                        <div class="swim-lane">
+                            <h1 class="heading fs-3">DOING</h1>
+
+                            <p class="task" draggable="true">Task 1</p>
+                            <p class="task" draggable="true">Task 2</p>
+                            <p class="task" draggable="true">Task 3</p>
                         </div>
-                        <div class="col">
-                            <h1>Done</h1>
+
+                        <div class="swim-lane">
+                            <h1 class="heading fs-3">DONE</h1>
+
+                            <p class="task" draggable="true">Task 1</p>
+                            <p class="task" draggable="true">Task 2</p>
+                            <p class="task" draggable="true">Task 3</p>
                         </div>
                     </div>
                 </div>
+                <!-- <div class="card text-center" id="todo-content">
+                    <div class="board">
+                        <form id="todo-form">
+                            <input type="text" placeholder="New TODO..." id="todo-input">
+                            <button type="submit">Add +</button>
+                        </form>
+
+                        <div class="lanes">
+                            <div class="swim-lane" id="todo-lane">
+                                <h1 class="heading fs-3">TODO</h1>
+
+                                <p class="task" draggable="true">Task 1</p>
+                                <p class="task" draggable="true">Task 2</p>
+                                <p class="task" draggable="true">Task 3</p>
+                            </div>
+
+                            <div class="swim-lane">
+                                <h1 class="heading fs-3">DOING</h1>
+
+                                <p class="task" draggable="true">Task 1</p>
+                                <p class="task" draggable="true">Task 2</p>
+                                <p class="task" draggable="true">Task 3</p>
+                            </div>
+
+                            <div class="swim-lane">
+                                <h1 class="heading fs-3">DONE</h1>
+
+                                <p class="task" draggable="true">Task 1</p>
+                                <p class="task" draggable="true">Task 2</p>
+                                <p class="task" draggable="true">Task 3</p>
+                            </div>
+                        </div>
+                    </div>                    
+                </div> -->
+                <!-- <div class="card text-center" id="todo-content">
+                    <h1>ToDo</h1>
+                    <p>Temoprary implementation</p>
+                    <div class="row">
+                        <div class="col m-2 todolist" id="todo">
+                            <h1>Todo</h1>
+                        </div>
+                        <div class="col m-2 todolist" id="doing">
+                            <h1>Doing</h1>
+                        </div>
+                        <div class="col m-2 todolist" id="done">
+                            <h1>Done</h1>
+                        </div>
+                    </div>
+                </div> -->
             </div>
         </div>
     </div>

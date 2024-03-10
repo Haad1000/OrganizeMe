@@ -1,3 +1,7 @@
+*::-webkit-scrollbar {
+    display: none;
+}
+
 body {
     margin-top: 5vh;
     margin-bottom: 5vh;
@@ -64,4 +68,108 @@ body {
 
 .card img {
     max-width: 40%;
+}
+
+/* .todolist {
+    background-color: rgb(228, 228, 228);
+} */
+
+#my-todo {
+    overflow: auto;
+    margin-left: 18vw;
+    margin-right: 4vw;
+    border: none;
+    align-items: center;;
+    padding: 1vh;
+    /* background-color: rgba(255, 59, 248, 0.2); */
+}
+
+.board {
+    width: 100%;
+    height: 100vh;
+    overflow: scroll;
+    /* background: linear-gradient(90deg, #f01b7e, #edbb24); */
+    /* background-color: #e4e4e4; */
+}
+
+#todo-form {
+    padding: 12px;
+    margin-right: 12px;
+    width: 225px;
+
+    border-radius: 4px;
+    border: none;
+
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    background: white;
+
+    font-size: 14px;
+    outline: none;
+}
+
+#todo-form button {
+    padding: 12px 32px;
+
+    border-radius: 4px;
+    border: none;
+
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    background: #ffffff;
+    color: black;
+
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.lanes {
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    gap: 16px;
+
+    padding: 24px 32px;
+
+    overflow: scroll;
+    height: 100%;
+}
+
+.heading {
+    font-weight: bold;
+}
+
+.swim-lane {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    background: #f4f4f4;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+
+    padding: 12px;
+    border-radius: 4px;
+    width: 20vw;
+    min-height: 120px;
+
+    flex-shrink: 0;
+}
+
+.task {
+    background: white;
+    color: black;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+
+    padding: 12px;
+    border-radius: 4px;
+
+    font-size: 16px;
+    cursor: grab;
+}
+
+.is-dragging {
+    scale: 1.05;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    background: rgb(50, 50, 50);
+    color: white;
+    cursor: grabbing;
 }
